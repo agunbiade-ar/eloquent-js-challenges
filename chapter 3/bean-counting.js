@@ -25,7 +25,8 @@ function upperCaseBs_withRecursion(text) {
   }
   return num
 }
-//test with a recursive function
+
+//counting a character with the recursive function
 function countChar(text, character) {
   let num = 0
   let current = text[0]
