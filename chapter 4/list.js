@@ -54,7 +54,7 @@ function recursive_nth(list, index) {
 }
 
 //generate a random array of length 3
-const randArray = require('./generateRandomArray')()
+const randArray = require('./generateRandomArray')(3)
 // console.log(randArray)
 
 list = arrayToList(randArray)
